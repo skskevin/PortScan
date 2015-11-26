@@ -25,8 +25,8 @@ CREATE TABLE `data_newport` (
   `date` datetime(6) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8</br>
-三 代码说明＜/br＞
+三 代码说明</br>
    <1>conf/conf.ini  配置nmap扫描参数、报警接收人、数据库信息</br>
-   <2>conf/ip.ini  需要扫描的IP列表＜/br＞
-   运行:＜/br＞
+   <2>conf/ip.ini  需要扫描的IP列表</br>
+   运行:</br>
        python portscan.py</br>
