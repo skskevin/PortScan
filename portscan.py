@@ -47,7 +47,7 @@ def do_scan(targets, options):
     rc = nmproc.run()
     if rc != 0:
         print("nmap scan failed: {0}".format(nmproc.stderr))
-    print(nmproc.stdout)
+    #print(nmproc.stdout)
 
     try:
         parsed = NmapParser.parse(nmproc.stdout)
